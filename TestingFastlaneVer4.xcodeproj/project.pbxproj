@@ -15,6 +15,7 @@
 		72B3732A2615B5F200F2954F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72B373282615B5F200F2954F /* LaunchScreen.storyboard */; };
 		72B373352615B5F200F2954F /* TestingFastlaneVer4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B373342615B5F200F2954F /* TestingFastlaneVer4Tests.swift */; };
 		72B373402615B5F200F2954F /* TestingFastlaneVer4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B3733F2615B5F200F2954F /* TestingFastlaneVer4UITests.swift */; };
+		72B373512615BE4000F2954F /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B373502615BE4000F2954F /* SnapshotHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		72B3733B2615B5F200F2954F /* TestingFastlaneVer4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingFastlaneVer4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72B3733F2615B5F200F2954F /* TestingFastlaneVer4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingFastlaneVer4UITests.swift; sourceTree = "<group>"; };
 		72B373412615B5F200F2954F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72B373502615BE4000F2954F /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				72B3733F2615B5F200F2954F /* TestingFastlaneVer4UITests.swift */,
+				72B373502615BE4000F2954F /* SnapshotHelper.swift */,
 				72B373412615B5F200F2954F /* Info.plist */,
 			);
 			path = TestingFastlaneVer4UITests;
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72B373402615B5F200F2954F /* TestingFastlaneVer4UITests.swift in Sources */,
+				72B373512615BE4000F2954F /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
